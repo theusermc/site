@@ -8,7 +8,7 @@ body {
 h1 {
   font-style: bold;
   color: #ffffff;
-  background-color: #000000;
+  background-color: #1a1a1a;
   display: inline-block;
   padding: 15px 32px;
 }
@@ -19,11 +19,11 @@ a {
 }
 
 p {
-  color: #000000;
+  color: #ffffff;
 }
 
 .button {
-  background-color: #000000;
+  background-color: #1a1a1a;
   border: none;
   color: white;
   padding: 15px 32px;
