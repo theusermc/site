@@ -4,6 +4,15 @@ http://rintyuu.glitch.me
 rintyuu kun#4896 
 */
 
+/*
+on file
+ * @name rintyuu theme
+ * @author rintyuu kun#4896
+ * @version 1.0
+ * @description a dark theme with subtle colors || rintyuu thinks dark mode is better
+ * @website https://rintyuu.glitch.me/
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 ::-webkit-input-placeholder,
@@ -107,7 +116,7 @@ button {
 div[class*="typeWindows-"] {
 	--background-modifier-hover: rgba(var(--white), 0.05);
 	--background-modifier-active: rgba(var(--white), 0.075);
-	height: 26px;
+	height: 24px;
 }
 
 div[class*="typeWindows-"]>div:first-child {
@@ -116,7 +125,7 @@ div[class*="typeWindows-"]>div:first-child {
 
 div[class*="typeWindows-"]>div[role="button"] {
 	height: 30px;
-	width: 36px;
+	width: 30px;
 }
 
 div[class*="typeWindows-"]::after {
