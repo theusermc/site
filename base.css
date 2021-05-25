@@ -68,7 +68,7 @@ button {
 	--deprecated-store-bg: transparent;
 	--background-modifier-hover: rgba(var(--black), 0.3);
 	--background-modifier-active: rgba(var(--black), 0.3);
-	--background-modifier-selected: rgba(var(--black), 0.6);
+	--background-modifier-selected: rgba(var(--black), 1);
 	--elevation-low: inset 0 -1px 0 0 rgba(var(--black), 0.3);
 	--channels-default: rgba(var(--white), 0.3);
 	--deprecated-quickswitcher-input-background: var(--background-solid);
