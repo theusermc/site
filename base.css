@@ -41,8 +41,8 @@ button {
   --background-solid: #141313;
   --background-solid-dark: #000000;
   --background-solid-darker: #181717;
-  --accent: 9, 71, 99;
-  --accent-alt: 27, 44, 54;
+  --accent: 156, 156, 156;
+  --accent-alt: 126, 128, 130;
 	--black: 0, 0, 0;
 	--white: 255, 255, 255;
 	--accentcolor: var(--accent);
