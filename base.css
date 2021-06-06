@@ -43,7 +43,7 @@ button {
   --background-solid-darker: #181717;
   --accent: 156, 156, 156;
   --accent-alt: 126, 128, 130;
-	--black: 0, 0, 0;
+	--black: 38, 39, 41;
 	--white: 255, 255, 255;
 	--accentcolor: var(--accent);
 	--vaccentcolor-hover: rgb(var(--accent));
