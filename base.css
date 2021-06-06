@@ -116,7 +116,7 @@ button {
 div[class*="typeWindows-"] {
 	--background-modifier-hover: rgba(var(--white), 0.05);
 	--background-modifier-active: rgba(var(--white), 0.075);
-	height: 24px;
+	height: 26px;
 }
 
 div[class*="typeWindows-"]>div:first-child {
@@ -124,8 +124,8 @@ div[class*="typeWindows-"]>div:first-child {
 }
 
 div[class*="typeWindows-"]>div[role="button"] {
-	height: 30px;
-	width: 30px;
+	height: 40px;
+	width: 40px;
 }
 
 div[class*="typeWindows-"]::after {
@@ -364,9 +364,6 @@ div[class^='chat'] {
 	--background-floating: rgba(var(--black), 0.5);
 }
 
-div[class^="container-"][id^="chat-messages-"] {
-	--background-modifier-hover: var(--background-solid-dark);
-}
 
 div[class^='chat'] main form {
 	margin-top: 0;
