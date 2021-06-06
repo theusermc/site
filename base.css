@@ -185,7 +185,7 @@ ul[data-list-id='guildsnav'] [class^="pill-"] span {
 }
 
 span[class^="expandedFolderBackground-"] {
-	--background-secondary: rgba(var(--black), 0.25);
+	--background-secondary: rgba(var(--black), 0.01);
 	border-radius: 14px;
 	width: 40px;
 	left: 16px;
