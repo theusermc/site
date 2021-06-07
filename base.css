@@ -50,8 +50,7 @@ button {
 	--vaccentcolor-active: rgb(var(--accent));
 }
 
-.theme-dark,
-.theme-light {
+.theme-dark {
 	
 	--background-primary: var(--background-solid);
 	--background-mobile-primary: var(--background-primary);
