@@ -68,9 +68,10 @@ p {
 }
 
 #discord {
-     
+     font-style: bold;
+     margin-top: 54px;
+     margin-right: 32px;
      position: absolute;
      top: 0;
      right: 0;
-    
- }
+}
