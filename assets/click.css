@@ -1,0 +1,36 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+
+span {
+  color: #ffffff
+}
+
+input {
+  background-color: #1a1a1a;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button {
+  background-color: #1a1a1a;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
