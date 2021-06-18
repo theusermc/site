@@ -5,7 +5,5 @@ function rintyuudownload() {
 }
 
 function rintyuualert() {
-  alert(
-    "redirected for security reasons. go ahead and continue."
-  );
+  alert("redirected for security reasons. go ahead and continue.");
 }

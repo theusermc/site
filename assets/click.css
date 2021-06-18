@@ -3,9 +3,8 @@ body {
   margin: 2em;
 }
 
-
 span {
-  color: #ffffff
+  color: #ffffff;
 }
 
 input {
@@ -17,7 +16,7 @@ input {
   text-decoration: none;
   display: inline-block;
   font-size: 20px;
-  
+
   margin: 4px 2px;
   cursor: pointer;
 }
