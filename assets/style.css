@@ -3,6 +3,19 @@ body {
   margin: 2em;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1A1A1A;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+
 h1 {
   font-style: bold;
   color: #ffffff;
@@ -33,6 +46,15 @@ p {
   cursor: pointer;
 }
 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  text-align: left;
+}
+
 #rintyuudld {
   background-color: #1a1a1a;
   border: none;
@@ -46,20 +68,6 @@ p {
   cursor: pointer;
 }
 
-/* width */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #1A1A1A;
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #ffffff;
-}
-
 #discord {
   font-style: bold;
   margin-top: 54px;
@@ -67,13 +75,4 @@ p {
   position: absolute;
   top: 0;
   right: 0;
-}
-
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: black;
-  text-align: left;
 }
