@@ -14,8 +14,6 @@ function rintyuuctdownload() {
   );
 }
 
-function rintyuuredir() {
-  location.replace(
-    "https://rintyuu.glitch.me/"
-  );
-}
+setTimeout(rintyuu() {
+  location.replace("https://rintyuu.glitch.me/");
+}, 2000);
