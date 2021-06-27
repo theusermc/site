@@ -17,3 +17,4 @@ function rintyuuctdownload() {
 setTimeout(rintyuu() {
   location.replace("https://rintyuu.glitch.me/");
 }, 2000);
+
