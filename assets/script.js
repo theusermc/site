@@ -18,3 +18,6 @@ setTimeout(rintyuu() {
   location.replace("https://rintyuu.glitch.me/");
 }, 2000);
 
+funtion alertcontact() {
+  alert('my discord is rintyuu kohai#4896');
+}
