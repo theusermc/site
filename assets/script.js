@@ -5,9 +5,13 @@ function rintyuubddownload() {
 }
 
 setTimeout(rintyuu() {
-  location.replace("https://rintyuu.glitch.me/");
-}, 2000);
+  location.replace("https://rintyuu.glitch.me/rintyuus/about.html");
+}, 1);
 
 funtion alertcontact() {
   alert('my discord is rintyuu kohai#4896');
+}
+
+function myFunction() {
+  location.replace("https://www.w3schools.com")
 }
