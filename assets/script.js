@@ -5,7 +5,7 @@ function rintyuubddownload() {
 }
 
 setTimeout(rintyuu() {
-  location.replace("https://rintyuu.glitch.me/rintyuus/about.html");
+  location.replace("http://rintyuu.glitch.me/rintyuus/about.html");
 }, 1);
 
 funtion alertcontact() {
