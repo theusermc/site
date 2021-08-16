@@ -17,5 +17,35 @@
     <meta name="theme-color" content="#000000" />
   </head>
   <body style="background-color:#000000">
+    
+    <h1>
+      rintyuus / testing
+    </h1>
+    <b>some testing snippetes may require the https standard. click <a href=</a></b>
+  <br />
+<button class="button" onclick="getLocation()">get coordinates</button>
+    <br />
+    <a href="https://www.w3schools.com/html/html5_geolocation.asp">refrence</a>
+<br />
+<p id="demo"></p>
+
+<script>
+var x = document.getElementById("demo");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else { 
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude + 
+  "<br>Longitude: " + position.coords.longitude;
+}
+</script>
+
+
   </body>
 </html>
