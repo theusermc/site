@@ -34,7 +34,6 @@
     <a href="https://www.w3schools.com/html/html5_geolocation.asp">refrence</a>
     <br />
     <p id="coord"></p>
-
     <script>
       var x = document.getElementById("coord");
 
@@ -48,10 +47,7 @@
 
       function showPosition(position) {
         x.innerHTML =
-          " " +
-          position.coords.latitude +
-          ", " +
-          position.coords.longitude;
+          " " + position.coords.latitude + ", " + position.coords.longitude;
       }
     </script>
   </body>
