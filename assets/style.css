@@ -62,7 +62,9 @@ p {
   color: #ffffff;
 }
 
-
+canvas {
+  color: #ffffff;
+}
 
 .button {
   background-color: #1a1a1a;
