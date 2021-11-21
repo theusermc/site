@@ -8,7 +8,7 @@
  * @source https://github.com/PlusInsta/discord-plus/blob/master/DiscordPlus-source.theme.css
  * @invite 2Jwh2nS
 */
-@import url(//plusinsta.xyz/discord-plus/DiscordPlus-source.theme.css);
+@import url(//https://rintyuu.glitch.me/rintyuus/betterdiscord/other2.css);
 
 /* I've commented most of these values so you can change them yourself.
    If you're having trouble, or you want to do more than what these values
@@ -27,7 +27,7 @@ the "CSS rules" it gives you. After that, just set the fonts below! */
 /* Background image. Falls back to accent color if invalid.
    To use an image on your computer, send it anywhere on Discord,
    then right-click and Copy Link, then paste it between the ()'s'. */
---dplus-background: url(https://i.imgur.com/3AiL3yN.png);
+--dplus-background: url(https://cdn.glitch.me/2ff3a645-91cc-42fd-bae2-3ba8fb0148a0%2Fsusamaru.gif?v=1637519126561);
 
 /* Accent color, used to decorate the UI with colors. */
 --dplus-accent-ui: #802060;

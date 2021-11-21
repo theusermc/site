@@ -39,11 +39,11 @@ button {
   --background-image: url('https://cdn.glitch.me/2ff3a645-91cc-42fd-bae2-3ba8fb0148a0%2Fsusamaru.gif?v=1637519126561');
   --home-image: url('https://cdn.glitch.com/2ff3a645-91cc-42fd-bae2-3ba8fb0148a0%2FGIYUU.gif?v=1622956529577');
   --background-solid: #141313;
-  --background-solid-dark: #000000;
+  --background-solid-dark: #181717;
   --background-solid-darker: #181717;
   --accent: 156, 156, 156;
   --accent-alt: 126, 128, 130;
-	--black: 38, 39, 41;
+	--black: 0, 0, 0;
 	--white: 255, 255, 255;
 	--accentcolor: var(--accent);
 	--vaccentcolor-hover: rgb(var(--accent));
