@@ -128,7 +128,7 @@ div[class*="typeWindows-"]>div[role="button"] {
 }
 
 div[class*="typeWindows-"]::after {
-	content: 'i love trippie redd 😈';
+	content: 'rintyuu client';
 	font-weight: 5000;
 	line-height: 31px;
 	color: var(--text-muted);
