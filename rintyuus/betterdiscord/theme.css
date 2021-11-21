@@ -244,7 +244,7 @@ div[class^="sidebar-"]>nav>div[class^="searchBar"] {
 }
 
 div[id^="members-"] {
-	--background-secondary: rgba(var(--black), 0.4);
+	--background-secondary: rgba(var(--black), 0.9);
 	--background-modifier-hover: rgba(var(--white), 0.07);
 	--background-modifier-active: var(--background-modifier-hover);
 	--background-modifier-selected: rgba(var(--white), 0.07);
@@ -435,7 +435,7 @@ div[id^="chat-messages-"][class*="cozy-"] div::before {
 }
 
 #app-mount .container-1D34oG {
-	background: var(--background-primary);
+	background: var(--background-primary), 1;
 }
 
 div[class*="barBase-"] {
