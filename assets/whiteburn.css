@@ -1,0 +1,180 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1A1A1A;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+
+h1 {
+  font-style: bold;
+  color: #000000;
+  background-color: #d6cccb;
+  display: inline-block;
+  padding: 15px 32px;
+}
+
+.h1 {
+  font-style: bold;
+  color: #000000;
+  background-color: #d6cccb;
+  display: inline-block;
+  padding: 15px 32px;
+}
+
+#h1 {
+  font-style: bold;
+  color: #000000;
+  background-color: #d6cccb;
+  display: inline-block;
+  padding: 15px 32px;
+}
+
+
+
+ul {
+  color: #ffffff
+}
+
+li {
+  color: #ffffff
+}
+
+a {
+  font-style: bold;
+  color: #000000;
+}
+
+b {
+  color: #ffffff;
+}
+p {
+  color: #000000;
+}
+
+canvas {
+  color: #ffffff;
+}
+
+.button {
+  background-color: #d6cccb;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  text-align: left;
+}
+
+#rintyuubetterdiscord {
+  background-color: #827c7c;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#rintyuuexedownload {
+  background-color: ##827c7c;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#rintyuuvmdld {
+  background-color: #1a1a1a;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#rintyuuvirdld {
+  background-color: #1a1a1a;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#rintyuujjkdld {
+  background-color: #1a1a1a;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#rintyuuchrome {
+  background-color: #1a1a1a;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#discord {
+  font-style: bold;
+  margin-top: 54px;
+  margin-right: 32px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.gray {
+  color: #808080;
+}
