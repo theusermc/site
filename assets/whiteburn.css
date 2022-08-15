@@ -1,3 +1,8 @@
+
+/* THIS IS THE LIGHT MODE VERSION OF STYLE.CSS */
+/* THIS IS THE LIGHT MODE VERSION OF STYLE.CSS */
+/* THIS IS THE LIGHT MODE VERSION OF STYLE.CSS */
+
 body {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
@@ -56,7 +61,8 @@ a {
 }
 
 b {
-  color: #ffffff;
+  color: #000000;
+  font-size: 20px;
 }
 p {
   color: #000000;
