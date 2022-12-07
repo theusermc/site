@@ -98,7 +98,23 @@
       document.body.appendChild(hi);
       /* make hi white */
       hi.style.color = "white";
-      hi.style.fontFamily = 'Comic Sans MS';
+      hi.style.fontFamily = "Comic Sans MS";
+    </script>
+    <script>
+      /* make it so when i hover text that says sample text it changes to hi */
+      var sampleText = document.createElement("div");
+      sampleText.innerHTML = "Sample Text";
+      sampleText.style.fontSize = "12pt";
+      document.body.appendChild(sampleText);
+      sampleText.addEventListener("mouseover", function () {
+        sampleText.innerHTML = "Hi";
+      });
+      /* make it so when i hover over it again it changes back to sample text */
+      sampleText.addEventListener("mouseout", function () {
+        sampleText.innerHTML = "Sample Text";
+      });
+      sampleText.style.color = "white";
+      sampleText.style.fontFamily = 'Times New Roman';
     </script>
   </body>
 </html>
