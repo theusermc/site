@@ -114,7 +114,15 @@
         sampleText.innerHTML = "Sample Text";
       });
       sampleText.style.color = "white";
-      sampleText.style.fontFamily = 'Times New Roman';
+      sampleText.style.fontFamily = "Times New Roman";
+    </script>
+    <script>
+      var closeTab = document.createElement("button");
+      closeTab.innerHTML = "Close Tab";
+      closeTab.onclick = function () {
+        window.close();
+      };
+      document.body.appendChild(closeTab);
     </script>
   </body>
 </html>
