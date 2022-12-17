@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="rintyuu website cool right" />
+    <title>Spotify</title>
+    <link
+      rel="shortcut icon"
+      href="https://www.scdn.co/i/_global/favicon.ico"
+    />
+
+    <link rel="stylesheet" href="https://rintyuu.glitch.me/assets/style.css" />
+
+    <script src="https://rintyuu.glitch.me/assets/script.js" defer></script>
+    <meta name="theme-color" content="#000000" />
+  </head>
+  <body style="background-color: #000000">
+    <script>
+      var button = document.createElement("button");
+      button.innerHTML = "Click me";
+      button.onclick = function () {
+        for (var i = 0; i < 20; i++) {
+          window.open("http://www.google.com");
+        }
+      };
+      document.body.appendChild(button);
+    </script>
+    <br />
+    <br />
+    <script>
+      var title = document.title;
+      var titleInterval = setInterval(function () {
+        document.title = document.title == title ? "Playboi Carti - Shoota" : title;
+      }, 2500);
+    </script>
+  </body>
+</html>
