@@ -19,5 +19,21 @@
     <a href="http://google.com" class="button">google</a>
     <br />
     <a href="http://mangareader.to" class="button">mangareader</a>
+    <br />
+    <br />
+    <p>go to your own website!</p>
+    <script>
+      var input = document.createElement("input");
+      input.type = "text";
+      input.id = "url";
+      input.value = "http://";
+      document.body.appendChild(input);
+      var button = document.createElement("button");
+      button.innerHTML = "onward!";
+      button.onclick = function () {
+        window.open(document.getElementById("url").value);
+      };
+      document.body.appendChild(button);
+    </script>
   </body>
 </html>
