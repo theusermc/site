@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>Simple Sentence Counter</title>
     <script>
       function countSentences() {
-        // Get the input text
         var input = document.getElementById("input").value;
 
         var sentences = input.split(/[.?!]/);
@@ -11,18 +11,26 @@
         var count = sentences.length - 1;
 
         var output = document.getElementById("output");
-        output.innerHTML = "Sentence count: " + count;
+        if (count === 0) {
+          output.innerHTML = "there are currently no sentences.";
+        } else {
+          output.innerHTML = "sentence count: " + count;
+        }
       }
     </script>
   </head>
   <body style="background-color: #fff">
-    <textarea id="input" style="font-family: Arial"></textarea>
+    <textarea
+      id="input"
+      style="font-family: Arial; height: 400px; width: 700px"
+      ;=""
+    ></textarea>
     <br />
     <button onclick="countSentences()" style="font-family: Arial">
       Submit
     </button>
     <br />
     <br />
-    <div id="output" style="font-family: Comic Sans MS; font-size: 24px"></div>
+    <div id="output" style="font-family: Arial; font-size: 24px"></div>
   </body>
 </html>
