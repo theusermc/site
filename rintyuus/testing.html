@@ -1,100 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="rintyuu website cool right" />
-    <title>you are viewing</title>
-    <link
-      rel="shortcut icon"
-      href="https://cdn.glitch.com/2ff3a645-91cc-42fd-bae2-3ba8fb0148a0%2F2ff3a645-91cc-42fd-bae2-3ba8fb0148a0_icon.png?v=1623273460343"
-    />
-
-    <link rel="stylesheet" href="https://rintyuu.glitch.me/assets/style.css" />
-
-    <script src="https://rintyuu.glitch.me/assets/script.js" defer></script>
-    <meta name="theme-color" content="#000000" />
-  </head>
-  <body style="background-color: #000000">
-    <script></script>
     <script>
-      var hi = document.createElement("div");
-      hi.innerHTML = "Hi";
-      hi.style.fontSize = "120pt";
-      document.body.appendChild(hi);
-      /* make hi white */
-      hi.style.color = "white";
-      hi.style.fontFamily = "Comic Sans MS";
-    </script>
-    <script>
-      /* make it so when i hover text that says sample text it changes to hi */
-      var sampleText = document.createElement("div");
-      sampleText.innerHTML = "Sample Text";
-      sampleText.style.fontSize = "26pt";
-      document.body.appendChild(sampleText);
-      sampleText.addEventListener("mouseover", function () {
-        sampleText.innerHTML = "Hi";
-      });
-      /* make it so when i hover over it again it changes back to sample text */
-      sampleText.addEventListener("mouseout", function () {
-        sampleText.innerHTML = "you already moused over this";
-      });
-      sampleText.style.color = "white";
-      sampleText.style.fontFamily = "Times New Roman";
-    </script>
-    <br />
-    <br />
-    <br />
-    <br />
+      function countSentences() {
+        // Get the input text
+        var input = document.getElementById("input").value;
 
-    <script>
-      var alphabet = "abcdefghijklmnopqrstuvwxyz";
-      var text = document.createElement("div");
-      document.body.appendChild(text);
-      for (var i = 0; i < alphabet.length; i++) {
-        var button = document.createElement("button");
-        button.innerHTML = alphabet[i];
-        document.body.appendChild(button);
-        button.onclick = function () {
-          text.innerHTML += this.innerHTML;
-        };
+        var sentences = input.split(/[.?!]/);
+
+        var count = sentences.length - 1;
+
+        var output = document.getElementById("output");
+        output.innerHTML = "Sentence count: " + count;
       }
-      text.style.color = "white";
-      text.style.fontSize = "18pt";
-      text.style.fontFamily = "Comic Sans MS";
     </script>
+  </head>
+  <body style="background-color: #fff">
+    <textarea id="input" style="font-family: Arial"></textarea>
     <br />
-    <script>
-      var clearButton = document.createElement("button");
-      clearButton.innerHTML = "Clear";
-      document.body.appendChild(clearButton);
-      clearButton.onclick = function () {
-        text.innerHTML = "";
-      };
-    </script>
-    <script>
-      var spaceButton = document.createElement("button");
-      spaceButton.innerHTML = "Space";
-      document.body.appendChild(spaceButton);
-      spaceButton.onclick = function () {
-        text.innerHTML += " ";
-      };
-    </script>
-    <script>
-      var backspaceButton = document.createElement("button");
-      backspaceButton.innerHTML = "Backspace";
-      document.body.appendChild(backspaceButton);
-      backspaceButton.onclick = function () {
-        text.innerHTML = text.innerHTML.slice(0, -1);
-      };
-    </script>
-    <script>
-      var title = document.title;
-      var titleInterval = setInterval(function () {
-        document.title = document.title == title ? "rintyuus testing!" : title;
-      }, 2500);
-    </script>
+    <button onclick="countSentences()" style="font-family: Arial">
+      Submit
+    </button>
     <br />
+    <br />
+    <div id="output" style="font-family: Comic Sans MS; font-size: 24px"></div>
   </body>
 </html>
